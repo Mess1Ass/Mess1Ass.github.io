@@ -9,15 +9,15 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Aurora's Blog
-  author: Aurora
-  nick: Auroral UI
-  description:
+  subtitle: Mess1A's Blog
+  author: Mess1A
+  nick: Mess1A
+  description: 世界微尘里 <br /> 吾宁爱与憎
   link: '/'
   language: en
   multi_language: true
-  logo:
-  avatar:
+  logo: https://th.bing.com/th/id/OIP.FVh8PKOSiAnrPBugugt6BgHaHZ?w=220&h=219&c=7&r=0&o=5&pid=1.7
+  avatar: https://th.bing.com/th/id/OIP.FVh8PKOSiAnrPBugugt6BgHaHZ?w=220&h=219&c=7&r=0&o=5&pid=1.7
   beian:
     number: ''
     link: ''
@@ -26,7 +26,7 @@ site:
     link: ''
   # Start date of the blog YYY-MM-DD
   # 博客开始运行日期
-  started_date:
+  started_date: 2025-03-07
   # Path unique identifier (文章 URL 唯一标识)
   # uid: use unique ID
   # slug: use generated slug base on title
@@ -52,7 +52,7 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: true
+  About: false
   Tags: true
   Archives: true
   Friends: false
@@ -62,13 +62,13 @@ menu:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: true
+  dark_mode: 'auto'
   profile_shape: diamond # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
-    color_1: '#24c6dc'
-    color_2: '#5433ff'
-    color_3: '#ff0099'
+    color_1: '#ED9C11'
+    color_2: '#11DCED'
+    color_3: '#ED11E6'
 
 #! ---------------------------------------------------------------
 #! Social Configs
@@ -110,7 +110,7 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
+  enable: false
   autoExpand: true
   clientID: ''
   clientSecret: ''
@@ -216,4 +216,5 @@ footer_links:
 #! ---------------------------------------------------------------
 shiki:
   enable: true
+  theme: rose-pine
   backgroundColor: "#1a1a1a"
