@@ -16,8 +16,8 @@ site:
   link: '/'
   language: en
   multi_language: true
-  logo: https://th.bing.com/th/id/OIP.FVh8PKOSiAnrPBugugt6BgHaHZ?w=220&h=219&c=7&r=0&o=5&pid=1.7
-  avatar: https://th.bing.com/th/id/OIP.FVh8PKOSiAnrPBugugt6BgHaHZ?w=220&h=219&c=7&r=0&o=5&pid=1.7
+  logo: https://avatars.githubusercontent.com/u/187351171?s=400&u=9c476f29a83e3e29437a4a4b05a8f9e119a6a631&v=4
+  avatar: https://avatars.githubusercontent.com/u/187351171?s=400&u=9c476f29a83e3e29437a4a4b05a8f9e119a6a631&v=4
   beian:
     number: ''
     link: ''
@@ -52,7 +52,7 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: false
+  About: true
   Tags: true
   Archives: true
   Friends: false
