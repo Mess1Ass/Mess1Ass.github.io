@@ -1,6 +1,6 @@
 ---
 title: 丝芭商城切票
-date: 2025-03-10 14:31:23
+date: 2025-06-10 16:00:00
 abstracts: 切票
 tags: [python,爬虫,playwright]
 cover: ./images/ticketPlayWright.jpg
